@@ -129,21 +129,8 @@ Começar minhas aulas
 <footer>
 <h2>🎤 Canto Perfeito</h2>
 <p>Sua voz é única. Descubra todo o seu potencial!</p>
-<p>©️ 2026 - Todos os direitos reservados.</p>
 </footer>
 
-<script>
-function responder(correto){
- const resultado=document.getElementById("result");
- if(correto){
- resultado.innerHTML="🎉 Parabéns! Resposta correta!";
- resultado.style.color="green";
- }else{
- resultado.innerHTML="❌ Tente novamente!";
- resultado.style.color="red";
- }
-}
-</script>
 
 </body>
 </html>
